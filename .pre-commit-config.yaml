@@ -39,3 +39,11 @@ repos:
       - id: stylua-github
         files: '\.lua'
         args: [--call-parentheses=Always, --column-width=80, --indent-type=Spaces, --indent-width=4, --line-endings=Unix]
+
+  - repo: local
+    hooks:
+      - id: luarock-lint
+        name: luarock-lint
+        entry: luarocks lint
+        language: lua
+        files: '\.rockspec'

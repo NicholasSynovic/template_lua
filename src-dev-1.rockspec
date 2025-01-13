@@ -1,5 +1,6 @@
+rockspec_format = "3.0"
 package = "src"
-version = "0.0.1"
+version = "dev-1"
 
 description = {
    summary = "Template Lua project",
