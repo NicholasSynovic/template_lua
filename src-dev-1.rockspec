@@ -13,7 +13,8 @@ description = {
 }
 
 dependencies = {
-   "lua ~> 5.4"
+   "lua ~> 5.4",
+   "luaunit ~> 3.4-1"
 }
 
 source = {
